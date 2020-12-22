@@ -1,0 +1,6 @@
+created:
+    - database/factories/ArticleFactory.php
+    - database/migrations/2020_12_21_181435_create_articles_table.php
+    - app/Models/Article.php
+models:
+    Article: { amount: long, cell: string, user_id: id }

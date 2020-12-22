@@ -1,0 +1,8 @@
+models:
+  Article:
+    amount: long
+    cell: string
+    user_id: id
+
+
+
