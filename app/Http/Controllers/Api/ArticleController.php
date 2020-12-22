@@ -15,7 +15,16 @@ class ArticleController extends Controller
     }
 
     public function index(){
-        return ArticleCollection::make(Article::all());
+        return ArticleCollection::make(
+            Article::orderBy(request('amount'), 'desc')
+                ->paginate(
+                    $perPage = request('page.size'),
+                    $columns = ['*'],
+                    $pageName = 'page[number]',
+                    $page = request('page.number')
+                )
+                ->appends(request()->except('page.number'))
+        );
     }
 
 }

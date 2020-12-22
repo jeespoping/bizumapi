@@ -2,13 +2,14 @@
 
 namespace App\Providers;
 
-
+use App\BizumApi\BizumApiBuilder;
+use Blueprint\Builder;
 use Illuminate\Support\ServiceProvider;
 
-class AppServiceProvider extends ServiceProvider
+class BizumApiServiceProvider extends ServiceProvider
 {
     /**
-     * Register any application services.
+     * Register services.
      *
      * @return void
      */
@@ -18,12 +19,12 @@ class AppServiceProvider extends ServiceProvider
     }
 
     /**
-     * Bootstrap any application services.
+     * Bootstrap services.
      *
      * @return void
      */
     public function boot()
     {
-        //
+//        Builder::mixin(new BizumApiBuilder);
     }
 }

@@ -150,6 +150,7 @@
       <updated>1608594952755</updated>
       <workItem from="1608594954572" duration="2577000" />
       <workItem from="1608607989374" duration="1198000" />
+      <workItem from="1608674205885" duration="3698000" />
     </task>
     <servers />
   </component>
@@ -157,6 +158,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1170" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608679675527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1170" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608679675527" />
+    <state width="196" height="539" key="HiddenNamespacesPopup" timestamp="1608676921174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="196" height="539" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1608676921174" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1608595461259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
