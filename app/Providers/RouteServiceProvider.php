@@ -72,8 +72,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapApiRoutes()
     {
-        Route::prefix('api/v1')
-            ->middleware('api')
+        Route::middleware('api')
             //para que se agregue a otdos los controladores de esta ruta
             ->namespace($this->namespace. '\\Api')
             ->group(base_path('routes/api.php'));
